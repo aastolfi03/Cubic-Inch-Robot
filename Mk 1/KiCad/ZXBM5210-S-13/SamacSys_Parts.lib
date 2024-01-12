@@ -1,0 +1,111 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ZXBM5210-S-13
+#/528690/1155093/2.50/8/3/Motor
+DEF ZXBM5210-S-13 M 0 30 Y Y 1 F N
+F0 "M" 950 300 50 H V L CNN
+F1 "ZXBM5210-S-13" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 950 100 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/9210827P" 950 0 50 H I L CNN
+F4 "DiodesZetex ZXBM5210-S-13, DC Motor Driver" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "9210827P" 950 -300 50 H I L CNN "RS Part Number"
+F7 "http://uk.rs-online.com/web/p/products/9210827P" 950 -400 50 H I L CNN "RS Price/Stock"
+F8 "Diodes Inc." 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ZXBM5210-S-13" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OUT1 1 0 0 200 R 50 50 0 0 O
+X VM 2 0 -100 200 R 50 50 0 0 W
+X VDD 3 0 -200 200 R 50 50 0 0 W
+X FWD 4 0 -300 200 R 50 50 0 0 I
+X GND 8 1100 0 200 L 50 50 0 0 W
+X OUT2 7 1100 -100 200 L 50 50 0 0 O
+X VREF 6 1100 -200 200 L 50 50 0 0 I
+X REV 5 1100 -300 200 L 50 50 0 0 I
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BMP390
+#/13229313/1155093/2.50/10/4/Integrated Circuit
+DEF BMP390 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 700 50 H V L CNN
+F1 "BMP390" 1050 600 50 H V L CNN
+F2 "BMP390" 1050 500 50 H I L CNN
+F3 "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp390-ds002.pdf" 1050 400 50 H I L CNN
+F4 "Board Mount Pressure Sensors" 1050 300 50 H I L CNN "Description"
+F5 "0.8" 1050 200 50 H I L CNN "Height"
+F6 "262-BMP390" 1050 100 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bosch-Sensortec/BMP390?qs=QNEnbhJQKvYQVfvRMgo2YA%3D%3D" 1050 0 50 H I L CNN "Mouser Price/Stock"
+F8 "BOSCH" 1050 -100 50 H I L CNN "Manufacturer_Name"
+F9 "BMP390" 1050 -200 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VDDIO 1 600 700 200 D 50 50 0 0 P
+X SCK 2 500 700 200 D 50 50 0 0 P
+X VSS_1 3 0 0 200 R 50 50 0 0 P
+X SDI 4 0 -100 200 R 50 50 0 0 P
+X SDO 5 0 -200 200 R 50 50 0 0 P
+X CSB 6 500 -800 200 U 50 50 0 0 P
+X INT 7 600 -800 200 U 50 50 0 0 P
+X VSS_2 8 1200 -200 200 L 50 50 0 0 P
+X VSS_3 9 1200 -100 200 L 50 50 0 0 P
+X VDD 10 1200 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 500 1000 500 1000 -600 200 -600 200 500 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PCF8523T_1,118
+#/274221/1155093/2.50/8/3/Integrated Circuit
+DEF PCF8523T_1,118 IC 0 30 Y Y 1 F N
+F0 "IC" 1350 300 50 H V L CNN
+F1 "PCF8523T_1,118" 1350 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1350 100 50 H I L CNN
+F3 "http://www.nxp.com/docs/en/data-sheet/PCF8523.pdf" 1350 0 50 H I L CNN
+F4 "NXP - PCF8523T/1,118 - REAL TIME CLOCK/CALENDAR, I2C, SOIC-8" 1350 -100 50 H I L CNN "Description"
+F5 "1.75" 1350 -200 50 H I L CNN "Height"
+F6 "771-PCF8523T/1118" 1350 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCF8523T-1118?qs=beN0Cyoe8YmmXShRMIPCwg%3D%3D" 1350 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "NXP" 1350 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PCF8523T/1,118" 1350 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X OSCI 1 0 0 200 R 50 50 0 0 P
+X OSCO 2 0 -100 200 R 50 50 0 0 P
+X VBAT 3 0 -200 200 R 50 50 0 0 P
+X VSS 4 0 -300 200 R 50 50 0 0 P
+X VDD 8 1500 0 200 L 50 50 0 0 P
+X ~INT1~/CLKOUT 7 1500 -100 200 L 50 50 0 0 P
+X SCL 6 1500 -200 200 L 50 50 0 0 P
+X SDA 5 1500 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1300 100 1300 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

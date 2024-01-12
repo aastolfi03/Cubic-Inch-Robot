@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name "APDS-9960.")(type "KiCad")(uri "${KIPRJMOD}/Libraries/APDS-9960/APDS-9960.kicad_sym")(options "")(descr ""))
+  (lib (name "DMG3415U")(type "KiCad")(uri "${KIPRJMOD}/Libraries/DMG3415U/DMG3415U-7.kicad_sym")(options "")(descr ""))
+  (lib (name "SK6805-E-J")(type "KiCad")(uri "${KIPRJMOD}/Libraries/SK6805-E-J/2023-07-15_20-26-16.kicad_sym")(options "")(descr ""))
+  (lib (name "VL53L5CX")(type "KiCad")(uri "${KIPRJMOD}/Libraries/VL53L5CX/2023-07-15_20-46-33.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32-PICO-V3")(type "Legacy")(uri "${KIPRJMOD}/Libraries/ESP32-PICO-V3/ESP32-PICO-V3.lib")(options "")(descr ""))
+)

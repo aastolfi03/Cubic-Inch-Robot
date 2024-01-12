@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "APDS-9960")(type "KiCad")(uri "C:/Users/amast/OneDrive/Projects/Cubic Inch Robot/KiCad/APDS-9960")(options "")(descr ""))
+)

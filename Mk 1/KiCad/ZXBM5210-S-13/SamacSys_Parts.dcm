@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP ZXBM5210-S-13
+D DiodesZetex ZXBM5210-S-13, DC Motor Driver
+K
+F http://uk.rs-online.com/web/p/products/9210827P
+$ENDCMP
+#
+#End Doc Library
